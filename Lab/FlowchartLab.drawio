@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-25T04:43:24.928Z" agent="5.0 (Windows)" etag="JccHrg4XQPuEFkgUCD8a" version="13.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-09-25T04:53:43.915Z" agent="5.0 (Windows)" etag="J4Wm_cyrzc7vkD6SsxC1" version="13.7.5" type="github" pages="3">
   <diagram id="M1sel4MT3LEBJnrplJ3O" name="Page-1">
     <mxGraphModel dx="2062" dy="1151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -48,8 +48,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v8QFUyej2RM0iSx28Hla-13" value="&lt;div&gt;&lt;b&gt;Function Prototypes&lt;/b&gt; &lt;br&gt;&lt;/div&gt;&lt;div&gt;char rollDie int&lt;/div&gt;&lt;div&gt;void fileDsp ofstream, int[], int[], int,int,int,int&lt;br&gt;&lt;/div&gt;&lt;div&gt;void screnDsp int[], int[], int, int, int, int&lt;/div&gt;&lt;div&gt;void crpGame int[] int[] int&amp;amp;, int&amp;amp;, int&amp;amp;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="140" width="280" height="110" as="geometry" />
+        <mxCell id="v8QFUyej2RM0iSx28Hla-13" value="&lt;div&gt;&lt;b&gt;Function Prototypes&lt;/b&gt; &lt;br&gt;&lt;/div&gt;&lt;div&gt;char rollDie sides&lt;/div&gt;&lt;div&gt;void fileDsp &amp;amp;out, wins[], losses[], SIZE, nGames, numThrw, mxThrw&lt;br&gt;&lt;/div&gt;&lt;div&gt;void screnDsp wins[], losses[], SIZE, nGames, numThrw, mxThrw&lt;/div&gt;&lt;div&gt;void crpGame wins[], losses[], SIZE, &amp;amp;nGames, &amp;amp;numThrw, &amp;amp;mxThrw&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="359.38" y="160" width="400" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8rNTbypjfVEe8LTCINUh-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="v8QFUyej2RM0iSx28Hla-16" target="v8QFUyej2RM0iSx28Hla-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -214,7 +214,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v4McWJqvuAOxixcI3Kxj-6" value="&lt;div&gt;Declare and initialize variables&lt;/div&gt;&lt;div&gt;gmThrw=1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RCFoSuadXLx-yFdT2YMr-1">
+        <mxCell id="v4McWJqvuAOxixcI3Kxj-6" value="&lt;div&gt;&lt;b&gt;Declare and initialize variables&lt;/b&gt;&lt;/div&gt;&lt;div&gt;gmThrw=1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RCFoSuadXLx-yFdT2YMr-1">
           <mxGeometry x="190" y="250" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v4McWJqvuAOxixcI3Kxj-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RCFoSuadXLx-yFdT2YMr-1" source="v4McWJqvuAOxixcI3Kxj-10" target="v4McWJqvuAOxixcI3Kxj-13">
@@ -306,20 +306,20 @@
             <mxPoint x="290" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yxltp_pazx4ri9ZAIe2c-14" value="&lt;div&gt;Declare and Initialize out of loop&lt;/div&gt;&lt;div&gt;thrwAgn=true&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RCFoSuadXLx-yFdT2YMr-1">
+        <mxCell id="yxltp_pazx4ri9ZAIe2c-14" value="&lt;div&gt;&lt;b&gt;Declare and Initialize out of loop&lt;/b&gt;&lt;/div&gt;&lt;div&gt;thrwAgn=true&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RCFoSuadXLx-yFdT2YMr-1">
           <mxGeometry x="160" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yxltp_pazx4ri9ZAIe2c-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="RCFoSuadXLx-yFdT2YMr-1" source="yxltp_pazx4ri9ZAIe2c-16" target="yxltp_pazx4ri9ZAIe2c-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yxltp_pazx4ri9ZAIe2c-16" value="&lt;div&gt;Declare and Initialize &lt;br&gt;&lt;/div&gt;&lt;div&gt;sum2=rollDie(6)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="RCFoSuadXLx-yFdT2YMr-1">
+        <mxCell id="yxltp_pazx4ri9ZAIe2c-16" value="&lt;div&gt;&lt;b&gt;Declare and Initialize&lt;/b&gt; &lt;br&gt;&lt;/div&gt;&lt;div&gt;sum2=rollDie(6)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;" vertex="1" parent="RCFoSuadXLx-yFdT2YMr-1">
           <mxGeometry x="160" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yxltp_pazx4ri9ZAIe2c-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RCFoSuadXLx-yFdT2YMr-1" source="yxltp_pazx4ri9ZAIe2c-19" target="yxltp_pazx4ri9ZAIe2c-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yxltp_pazx4ri9ZAIe2c-19" value="&lt;div&gt;Increment number of throws&lt;/div&gt;&lt;div&gt;gmThrw++&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="RCFoSuadXLx-yFdT2YMr-1">
-          <mxGeometry x="230" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="yxltp_pazx4ri9ZAIe2c-19" value="&lt;div&gt;gmThrw++&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="RCFoSuadXLx-yFdT2YMr-1">
+          <mxGeometry x="230" y="510" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yxltp_pazx4ri9ZAIe2c-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RCFoSuadXLx-yFdT2YMr-1" source="yxltp_pazx4ri9ZAIe2c-21" target="yxltp_pazx4ri9ZAIe2c-24">
           <mxGeometry relative="1" as="geometry">
@@ -406,7 +406,7 @@
           <mxGeometry x="415" y="70" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yxltp_pazx4ri9ZAIe2c-47" value="&lt;div&gt;do-while&lt;/div&gt;&lt;div&gt;loop&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="RCFoSuadXLx-yFdT2YMr-1">
-          <mxGeometry x="392.5" y="460" width="60" height="30" as="geometry" />
+          <mxGeometry x="365" y="380" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yxltp_pazx4ri9ZAIe2c-48" value="dependent if-else-if" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="RCFoSuadXLx-yFdT2YMr-1">
           <mxGeometry x="310" y="690" width="120" height="20" as="geometry" />
@@ -463,6 +463,25 @@
         <mxCell id="yxltp_pazx4ri9ZAIe2c-82" value="exit crpGame" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="RCFoSuadXLx-yFdT2YMr-1">
           <mxGeometry x="60" y="430" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Ogoo-CEAAi4yZudZEEi2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="RCFoSuadXLx-yFdT2YMr-1" source="Ogoo-CEAAi4yZudZEEi2-0" target="Ogoo-CEAAi4yZudZEEi2-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ogoo-CEAAi4yZudZEEi2-0" value="rollDie" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="RCFoSuadXLx-yFdT2YMr-1">
+          <mxGeometry x="50" y="965" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogoo-CEAAi4yZudZEEi2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="RCFoSuadXLx-yFdT2YMr-1" source="Ogoo-CEAAi4yZudZEEi2-2" target="Ogoo-CEAAi4yZudZEEi2-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ogoo-CEAAi4yZudZEEi2-2" value="&lt;div&gt;&lt;b&gt;Declare and Initialize variables&lt;/b&gt;&lt;/div&gt;&lt;div&gt;die1=rand()%sides+1;&lt;/div&gt;&lt;div&gt;die2=rand()%sides+1&lt;/div&gt;&lt;div&gt;sum1=die1+die2&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RCFoSuadXLx-yFdT2YMr-1">
+          <mxGeometry x="200" y="950" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogoo-CEAAi4yZudZEEi2-8" value="&lt;div&gt;return sum1&lt;/div&gt;&lt;div&gt;Exit rollDie&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="RCFoSuadXLx-yFdT2YMr-1">
+          <mxGeometry x="440" y="960" width="95" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -487,13 +506,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="eLElN08Gt6CVWHk8DwPY-4" value="&lt;div&gt;Output&lt;/div&gt;&lt;div&gt;set precision 2&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;Total number of Games = &lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; nGames&lt;br&gt;&lt;/div&gt;&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;Roll     Wins     Losses&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
+        <mxCell id="eLElN08Gt6CVWHk8DwPY-4" value="&lt;div&gt;&lt;b&gt;Output&lt;/b&gt;&lt;/div&gt;&lt;div&gt;set precision 2&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;Total number of Games = &lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; nGames&lt;br&gt;&lt;/div&gt;&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;Roll     Wins     Losses&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
           <mxGeometry x="5" y="100" width="275" height="70" as="geometry" />
         </mxCell>
         <mxCell id="epnVOQ6L5Z3YyfNH_Ltv-14" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="eLElN08Gt6CVWHk8DwPY-1" source="eLElN08Gt6CVWHk8DwPY-6" target="493ZssFs7PdAcdGXj0m9-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eLElN08Gt6CVWHk8DwPY-6" value="&lt;div&gt;Declare and Initialize variable out of loop&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;pl-smi&quot;&gt;sWins&lt;/span&gt;=&lt;span class=&quot;pl-c1&quot;&gt;0&lt;/span&gt; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;pl-smi&quot;&gt;sLosses&lt;/span&gt;=&lt;span class=&quot;pl-c1&quot;&gt;0&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
+        <mxCell id="eLElN08Gt6CVWHk8DwPY-6" value="&lt;div&gt;&lt;b&gt;Declare and Initialize variable out of loop&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;pl-smi&quot;&gt;sWins&lt;/span&gt;=&lt;span class=&quot;pl-c1&quot;&gt;0&lt;/span&gt; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;pl-smi&quot;&gt;sLosses&lt;/span&gt;=&lt;span class=&quot;pl-c1&quot;&gt;0&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
           <mxGeometry x="410" y="90" width="133.5" height="69" as="geometry" />
         </mxCell>
         <mxCell id="epnVOQ6L5Z3YyfNH_Ltv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="eLElN08Gt6CVWHk8DwPY-1" source="493ZssFs7PdAcdGXj0m9-0" target="493ZssFs7PdAcdGXj0m9-2">
@@ -504,7 +523,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="493ZssFs7PdAcdGXj0m9-0" value="&lt;div&gt;Declare and Initialize variable inside loop&lt;/div&gt;&lt;div&gt;sum=2&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
+        <mxCell id="493ZssFs7PdAcdGXj0m9-0" value="&lt;div&gt;&lt;b&gt;Declare and Initialize variable inside loop&lt;/b&gt;&lt;/div&gt;&lt;div&gt;sum=2&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
           <mxGeometry x="670" y="94.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="epnVOQ6L5Z3YyfNH_Ltv-0" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;entryX=0.46;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="eLElN08Gt6CVWHk8DwPY-1" source="493ZssFs7PdAcdGXj0m9-2" target="epnVOQ6L5Z3YyfNH_Ltv-7">
@@ -535,7 +554,7 @@
         <mxCell id="493ZssFs7PdAcdGXj0m9-7" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
           <mxGeometry x="45" y="450" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="epnVOQ6L5Z3YyfNH_Ltv-1" value="Output&lt;br&gt;&quot;Total wins and losses = &quot; and the sum of sWins+sLosses&lt;br&gt;&quot;Percentage wins = &quot;&amp;nbsp; (numThrw)/nGames&lt;br&gt;&quot;Percentage losses = &quot; (sLosses/nGames*PERCENT &quot;%&quot;&lt;br&gt;&quot;Maximum number of throws in a game = &quot; mxThrw&lt;br&gt;&quot;Average throw per game=&quot; (numThrw)/nGames&lt;br&gt;&quot;Ratio of Longest to shortest game = 10^&quot; log10(mxThrw)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
+        <mxCell id="epnVOQ6L5Z3YyfNH_Ltv-1" value="&lt;b&gt;Output&lt;/b&gt;&lt;br&gt;&quot;Total wins and losses = &quot; and the sum of sWins+sLosses&lt;br&gt;&quot;Percentage wins = &quot;&amp;nbsp; (numThrw)/nGames&lt;br&gt;&quot;Percentage losses = &quot; (sLosses/nGames*PERCENT &quot;%&quot;&lt;br&gt;&quot;Maximum number of throws in a game = &quot; mxThrw&lt;br&gt;&quot;Average throw per game=&quot; (numThrw)/nGames&lt;br&gt;&quot;Ratio of Longest to shortest game = 10^&quot; log10(mxThrw)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
           <mxGeometry x="70" y="490" width="370" height="120" as="geometry" />
         </mxCell>
         <mxCell id="epnVOQ6L5Z3YyfNH_Ltv-2" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="eLElN08Gt6CVWHk8DwPY-1" source="epnVOQ6L5Z3YyfNH_Ltv-1" target="epnVOQ6L5Z3YyfNH_Ltv-1">
@@ -563,7 +582,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="epnVOQ6L5Z3YyfNH_Ltv-10" value="&lt;div&gt;Output&lt;/div&gt;&lt;div&gt;set width to 4, sum, set width to 10, wins[sum], set width to 10, losses[sum]&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
+        <mxCell id="epnVOQ6L5Z3YyfNH_Ltv-10" value="&lt;div&gt;&lt;b&gt;Output&lt;/b&gt;&lt;/div&gt;&lt;div&gt;set width to 4, sum, set width to 10, wins[sum], set width to 10, losses[sum]&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
           <mxGeometry x="390" y="330" width="450" height="50" as="geometry" />
         </mxCell>
         <mxCell id="epnVOQ6L5Z3YyfNH_Ltv-13" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="eLElN08Gt6CVWHk8DwPY-1" source="epnVOQ6L5Z3YyfNH_Ltv-12">
@@ -595,14 +614,14 @@
         <mxCell id="EQJK73uD7a_oVM7VJQyb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="eLElN08Gt6CVWHk8DwPY-1" source="EQJK73uD7a_oVM7VJQyb-0" target="EQJK73uD7a_oVM7VJQyb-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQJK73uD7a_oVM7VJQyb-0" value="&lt;div&gt;Output&lt;/div&gt;&lt;div&gt;set precision 2&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;Total number of Games = &lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; nGames&lt;br&gt;&lt;/div&gt;&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;Roll     Wins     Losses&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
+        <mxCell id="EQJK73uD7a_oVM7VJQyb-0" value="&lt;div&gt;&lt;b&gt;Output&lt;/b&gt;&lt;/div&gt;&lt;div&gt;set precision 2&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;Total number of Games = &lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; nGames&lt;br&gt;&lt;/div&gt;&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;Roll     Wins     Losses&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
           <mxGeometry x="157.5" y="640" width="275" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EQJK73uD7a_oVM7VJQyb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="eLElN08Gt6CVWHk8DwPY-1" source="EQJK73uD7a_oVM7VJQyb-2" target="EQJK73uD7a_oVM7VJQyb-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQJK73uD7a_oVM7VJQyb-2" value="&lt;div&gt;Declare and Initialize variable out of loop&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;pl-smi&quot;&gt;sWins&lt;/span&gt;=&lt;span class=&quot;pl-c1&quot;&gt;0&lt;/span&gt; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;pl-smi&quot;&gt;sLosses&lt;/span&gt;=&lt;span class=&quot;pl-c1&quot;&gt;0&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
-          <mxGeometry x="470" y="640" width="133.5" height="69" as="geometry" />
+        <mxCell id="EQJK73uD7a_oVM7VJQyb-2" value="&lt;div&gt;&lt;b&gt;Declare and Initialize variable out of loop&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;pl-smi&quot;&gt;sWins&lt;/span&gt;=&lt;span class=&quot;pl-c1&quot;&gt;0&lt;/span&gt; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;pl-smi&quot;&gt;sLosses&lt;/span&gt;=&lt;span class=&quot;pl-c1&quot;&gt;0&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
+          <mxGeometry x="490" y="640" width="133.5" height="69" as="geometry" />
         </mxCell>
         <mxCell id="EQJK73uD7a_oVM7VJQyb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="eLElN08Gt6CVWHk8DwPY-1" source="EQJK73uD7a_oVM7VJQyb-4" target="EQJK73uD7a_oVM7VJQyb-6">
           <mxGeometry relative="1" as="geometry">
@@ -612,7 +631,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQJK73uD7a_oVM7VJQyb-4" value="&lt;div&gt;Declare and Initialize variable inside loop&lt;/div&gt;&lt;div&gt;sum=2&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
+        <mxCell id="EQJK73uD7a_oVM7VJQyb-4" value="&lt;div&gt;&lt;b&gt;Declare and Initialize variable inside loop&lt;/b&gt;&lt;/div&gt;&lt;div&gt;sum=2&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
           <mxGeometry x="700" y="635" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EQJK73uD7a_oVM7VJQyb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="eLElN08Gt6CVWHk8DwPY-1" source="EQJK73uD7a_oVM7VJQyb-6" target="EQJK73uD7a_oVM7VJQyb-8">
@@ -633,7 +652,7 @@
         <mxCell id="EQJK73uD7a_oVM7VJQyb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="eLElN08Gt6CVWHk8DwPY-1" source="EQJK73uD7a_oVM7VJQyb-10" target="EQJK73uD7a_oVM7VJQyb-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQJK73uD7a_oVM7VJQyb-10" value="&lt;div&gt;Output&lt;/div&gt;&lt;div&gt;set width to 4, sum, set width to 10, wins[sum], set width to 10, losses[sum]&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
+        <mxCell id="EQJK73uD7a_oVM7VJQyb-10" value="&lt;div&gt;&lt;b&gt;Output&lt;/b&gt;&lt;/div&gt;&lt;div&gt;set width to 4, sum, set width to 10, wins[sum], set width to 10, losses[sum]&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
           <mxGeometry x="390" y="860" width="450" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EQJK73uD7a_oVM7VJQyb-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="eLElN08Gt6CVWHk8DwPY-1" source="EQJK73uD7a_oVM7VJQyb-12">
@@ -651,7 +670,7 @@
         <mxCell id="EQJK73uD7a_oVM7VJQyb-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="eLElN08Gt6CVWHk8DwPY-1" source="EQJK73uD7a_oVM7VJQyb-14" target="EQJK73uD7a_oVM7VJQyb-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQJK73uD7a_oVM7VJQyb-14" value="Output&lt;br&gt;&quot;Total wins and losses = &quot; and the sum of sWins+sLosses&lt;br&gt;&quot;Percentage wins = &quot;&amp;nbsp; (numThrw)/nGames&lt;br&gt;&quot;Percentage losses = &quot; (sLosses/nGames*PERCENT &quot;%&quot;&lt;br&gt;&quot;Maximum number of throws in a game = &quot; mxThrw&lt;br&gt;&quot;Average throw per game=&quot; (numThrw)/nGames&lt;br&gt;&quot;Ratio of Longest to shortest game = 10^&quot; log10(mxThrw)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
+        <mxCell id="EQJK73uD7a_oVM7VJQyb-14" value="&lt;b&gt;Output&lt;/b&gt;&lt;br&gt;&quot;Total wins and losses = &quot; and the sum of sWins+sLosses&lt;br&gt;&quot;Percentage wins = &quot;&amp;nbsp; (numThrw)/nGames&lt;br&gt;&quot;Percentage losses = &quot; (sLosses/nGames*PERCENT &quot;%&quot;&lt;br&gt;&quot;Maximum number of throws in a game = &quot; mxThrw&lt;br&gt;&quot;Average throw per game=&quot; (numThrw)/nGames&lt;br&gt;&quot;Ratio of Longest to shortest game = 10^&quot; log10(mxThrw)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
           <mxGeometry x="55" y="940" width="370" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EQJK73uD7a_oVM7VJQyb-16" value="Exit scrnDsp" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="eLElN08Gt6CVWHk8DwPY-1">
